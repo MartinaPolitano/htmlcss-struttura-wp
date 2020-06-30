@@ -1,7 +1,7 @@
 * {
 box-sizing: border-box;
 padding: 0;
-margin: 0;
+margin: 100;
 }
 
 header {
@@ -12,7 +12,7 @@ header {
 .colonna1 {
   display: inline-block;
   float: left;
-  margin:10px 0;
+  margin:5px 0;
   height: 200px;
   width: 200px;
   background-color: #CC87DA;
@@ -20,28 +20,39 @@ header {
 
 .colonna2 {
   float: left;
-  margin: 10px;
-  height: 200px;
+  margin: 5px;
+  height: 320px;
   width: 45%;
   background-color: #730671;
 }
 
 .colonna3 {
   float: left;
-  width: 25%;
-  margin: 10px;
+  width: 20%;
+  height: 100px;
+
 
 }
 .colonna3-1 {
-  background-color: #730671;
-  height: 200px;
-  margin: 5px;
+  background-color: #CC87DA;
+  height: 150px;
+  margin: 10px;
 
 }
 
 .colonna3-2 {
-  background-color: #730671;
-  height: 200px;
+  background-color: #CC87DA;
+  height: 150px;
+  margin: 10px;
+}
+
+.colonna4 {
+  content: normal;
   margin: 5px;
+  display: inline-block;
+  clear: inherit;
+  height: 100px;
+  width: 100%;
+  background-color: #A4D2E1;
 
 }
