@@ -1,0 +1,47 @@
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+header {
+  height: 100px;
+  background-color: #FEFE3A;
+}
+
+.colonna1 {
+  display: inline-block;
+  float: left;
+  margin:10px 0;
+  height: 200px;
+  width: 200px;
+  background-color: #CC87DA;
+}
+
+.colonna2 {
+  float: left;
+  margin: 10px;
+  height: 200px;
+  width: 45%;
+  background-color: #730671;
+}
+
+.colonna3 {
+  float: left;
+  width: 25%;
+  margin: 10px;
+
+}
+.colonna3-1 {
+  background-color: #730671;
+  height: 200px;
+  margin: 5px;
+
+}
+
+.colonna3-2 {
+  background-color: #730671;
+  height: 200px;
+  margin: 5px;
+
+}
